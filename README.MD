@@ -77,6 +77,8 @@ if gpus:
 else:
     print("TensorFlow does not detect GPU. Using CPU for training.")
 ```
+#### 5️⃣ Summary
+
 <ol>
   <li>Ensures local GPU is properly leveraged.</li>
   <li>Version-aligned PyTorch/TensorFlow avoids CUDA mismatches.</li>
